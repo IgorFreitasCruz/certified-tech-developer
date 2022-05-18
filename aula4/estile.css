@@ -1,0 +1,53 @@
+footer {
+    border: 3px solid gray;
+    padding: 30px;
+    margin: 10px;
+}
+
+section>p:nth-child(3) {
+    /* border-top: 2px dotted grey; */
+    border-bottom: 2px dotted grey;
+    padding-bottom: 15px;
+}
+
+main {
+    border: 3px solid grey;
+    padding: 30px;
+    margin: 10px;
+}
+
+header {
+    border: 3px solid grey;
+    padding: 30px;
+    margin: 10px;
+    background-color: gre;
+}
+
+h2 {
+    background-color: greenyellow;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header {
+    background-color: #ffa600ad;
+}
+
+li,
+p {
+    text-align: justify;
+    line-height: 30px;
+
+}
+
+a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(255, 196, 238);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    color: blue
+}
+
+h2 {
+    color: rgb(57, 56, 56)
+}
+
+ul {
+    background-color: rgb(57, 56, 56);
+    color: #ccc;
+}
+
+
+.job-title {
+    color: #ccc;
+    background-color: blue;
+}
+
+#high {
+    color: blue;
+}
