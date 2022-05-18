@@ -11,17 +11,17 @@ body {
 
 
 div>img:nth-child(1) {
-    width: 88%;
-    position: absolute;
+    width: 100%;
+    position: relative;
     border-radius: 25px 25px 0px 0px;
 }
 
-div>img:nth-child(even) {
+div>img:nth-child(2) {
     border-radius: 50%;
     width: 25%;
     display: inline;
     position: relative;
-    margin-top: 200px;
+    margin-top: -80px;
     margin-left: 50px;
     border: 5px solid #fff;
 }
