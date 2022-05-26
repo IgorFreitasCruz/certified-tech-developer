@@ -31,7 +31,7 @@ div.card {
     display: flex;
     background: #F3F3F3;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     flex-basis: 250px;
     height: 600px;
@@ -41,24 +41,33 @@ div.card {
     border-top-right-radius: 50px;
 }
 
-div.content {
+div {
     display: flex;
     flex-direction: column;
 }
 
-img:nth-child(2) {
+img:nth-child(1) {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+img:nth-child(3) {
     border-radius: 50%;
     position: absolute;
-    top: 180px;
+    top: 150px;
 }
 
 h2 {
-    margin-top: 40px;
+    margin-top: 80px;
+    flex: 0.3;
 }
 
 p {
     padding: 0 10px;
     text-align: justify;
+    flex: 0.6;
 }
 
 button {
@@ -67,6 +76,7 @@ button {
     color: whitesmoke;
     border: none;
     border-radius: 3px;
+    flex: ;
 }
 
 button:hover {

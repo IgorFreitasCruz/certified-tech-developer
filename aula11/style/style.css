@@ -94,7 +94,6 @@ main {
 
 .cardapio-container h2 {
     color: red;
-    flex-shrink: 1;
     text-align: center;
 }
 
