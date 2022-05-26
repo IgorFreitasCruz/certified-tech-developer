@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #222222;
+    box-shadow: 0 5px 5px #888888;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.nav-items {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: flex-start;
+    color: #F3F3F3;
+
+}
+
+.nav-container h1 {
+    color: white;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.pizza-title1 {
+    color: green;
+}
+
+.pizza-title2 {
+    color: red;
+}
+
+main {
+    display: flex;
+    padding: 30px 20px;
+    flex-basis: 100%;
+    gap: 10px;
+    background: #E5E5E5;
+}
+
+/* main:nth-child(1), */
+.image-container {
+    flex-grow: 1;
+    position: relative;
+}
+
+.image-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image-container h2 {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: red;
+}
+
+.image-container span {
+    color: white;
+}
+
+.cardapio-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.cardapio-container ol li {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.cardapio-container h2 {
+    color: red;
+    flex-shrink: 1;
+    text-align: center;
+}
+
+.cardapio-container img {
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    height: 40%;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 0 20px;
+    align-content: center;
+    height: 150px;
+    background-color: #222222;
+    color: #F3F3F3;
+    position: relative;
+}
+
+footer img {
+    height: 94px;
+    position: absolute;
+    margin-left: 1000px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 0.8rem;
+}
