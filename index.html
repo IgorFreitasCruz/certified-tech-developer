@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <form action="" method="get">
+        <h1>Formulario</h1>
+        <label for="name">Nome</label>
+        <br>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email</label>
+        <span class="feedback"></span>
+        <br>
+        <input type="email" id="email" name="email" value="test@test.com">
+        <br>
+        <label>Voce ja foi ao cinema esse ano?</label>
+        <br>
+        <input type="radio" id="sim" name="cinema" value="sim" checked><label for="sim">Sim</label>
+        <br>
+        <input type="radio" id="nao" name="cinema" value="nao"><label for="nao">Nao</label>
+        <br>
+        <label for="senha">Senha</label>
+        <br>
+        <input type="password" id="password" name="password">
+        <br>
+        <label for="genero">Qual seu genero de cinema favorito?</label>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Tipo de filme</legend>
+            <input type="checkbox" name="genero" id="terror" value="terror"><label for="terror">Terror</label>
+            <br>
+            <input type="checkbox" name="genero" id="romance" value="romance"><label for="romance">Romance</label>
+            <br>
+            <input type="checkbox" name="genero" id="acao" value="acao"><label for="acao">Acao</label>
+            <br>
+        </fieldset>
+        <br>
+        <label for="carteiraEstudante">Possui carteira de Estudante?</label>
+        <br>
+        <select name="carteriraEstudante" id="carteriraEstudante">
+            <optgroup label="Nacional">
+                <option value="Sim">Sim</option>
+                <option value="Nao">Nao</option>
+                <option value="Nao">Talves</option>
+            </optgroup>
+            <optgroup label="Regional">
+                <option value="Sim">Sim</option>
+                <option value="Nao">Nao</option>
+                <option value="Nao">Talves</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <label for="calendario">Marca a data que vc foi ao cinema</label>
+        <br>
+        <input type="date" id="calendario" name="dataCinama" value='2022-06-06'>
+        <br>
+        <br>
+        <label for="arquivo">Selecione o arquivo</label>
+        <br>
+        <input type="file" id="arquivo" name="imagemPerfil" accept=".jpeg, .png" multiple>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+</html>
